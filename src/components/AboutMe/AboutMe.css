@@ -1,0 +1,37 @@
+.about-container {
+	position: absolute;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+	margin-right: -100px;
+}
+
+svg {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.about-intro-container {
+    margin-left: 100px;
+}
+
+.about-hello {
+	font-family: "Poppins";
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+    color:#00eeff;
+}
+.about-desc {
+	font-family: "Poppins";
+    font-size: 30px;
+    text-align: left;
+    font-weight: lighter;
+    margin-top: 30px;
+    word-wrap: break-word;
+    color: #ffffff;
+}
