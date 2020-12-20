@@ -9,7 +9,7 @@ const MainPage = () => {
 	return (
 		<div style={{ position: "relative", overflow: "hidden" }}>
 			<Particles
-				style={{ background: "#6C28C5" }}
+				style={{ background: "#000000" }}
 				height="100%"
 				width="100%"
 				params={ParticlesConfig}
@@ -24,7 +24,7 @@ const MainPage = () => {
 							smooth={true}
 							duration={1000}
 						>
-							About
+							About Me
 						</Link>
 					</li>
 					<li>

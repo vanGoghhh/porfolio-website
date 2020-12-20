@@ -1,37 +1,32 @@
 .about-container {
-	position: absolute;
+	position: relative;
 	width: 100%;
-	padding-bottom: 100%;
-	vertical-align: middle;
-	overflow: hidden;
 	margin-right: -100px;
+	height: 450px;
+	overflow: hidden;
 }
-
-svg {
-	display: inline-block;
+.svg {
+	
+}
+.about-intro-container {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: -1;
-}
-
-.about-intro-container {
-    margin-left: 100px;
+	margin-left: 100px;
 }
 
 .about-hello {
 	font-family: "Poppins";
-    font-size: 50px;
-    text-align: left;
-    font-weight: bold;
-    color:#00eeff;
+	font-size: 80px;
+	text-align: left;
+	font-weight: bold;
+	color: rgb(99, 178, 255);
 }
 .about-desc {
 	font-family: "Poppins";
-    font-size: 30px;
-    text-align: left;
-    font-weight: lighter;
-    margin-top: 30px;
-    word-wrap: break-word;
-    color: #ffffff;
+	font-size: 30px;
+	text-align: left;
+	font-weight: normal;
+	word-wrap: break-word;
+	color: #ffffff;
 }
