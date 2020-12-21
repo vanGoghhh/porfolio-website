@@ -34,7 +34,7 @@
 	font-family: "Poppins";
 	font-weight: bold;
 	padding-left: 40px;
-	color: rgb(99, 178, 255);
+	color: #7989ac;
 }
 
 .portfolio-exp-content {
@@ -63,7 +63,7 @@
 	width: 14px;
 	height: 14px;
 	border-radius: 50%;
-	border: 3px solid rgb(99, 178, 255);
+	border: 3px solid #7989ac;
 	z-index: 60;
 	transition: transform 0.4s ease 0s;
 	transform: scale(1);
@@ -76,7 +76,7 @@
 	left: 8px;
 	top: 8px;
 	z-index: 2;
-	background: rgb(99, 178, 255);
+	background:#7989ac;
 	transform: scaleY(0);
 	transition: transform 0.4s ease 0s;
 	transform-origin: center top;
@@ -120,7 +120,7 @@
 	width: 14px;
 	height: 14px;
 	border-radius: 50%;
-	border: 3px solid rgb(99, 178, 255);
+	border: 3px solid #7989ac;
 	z-index: 60;
 	transition: transform 0.4s ease 0s;
 	transform: scale(1);
@@ -137,7 +137,7 @@
 	font-size: 64px;
 	font-family: "Poppins";
 	font-weight: bold;
-	color: rgb(99, 178, 255);
+	color: #7989ac;
 	padding-left: 40px;
 }
 

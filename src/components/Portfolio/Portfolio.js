@@ -53,23 +53,26 @@ const Portfolio = () => {
 									Bachelor's in Computer Science
 								</div>
 								<div className="portfolio-edu-school">
-								National University of Singapore</div>
-								<div className="portfolio-edu-date">
-								August 2019 - Present</div>
+									National University of Singapore
+								</div>
+								<div className="portfolio-edu-date">August 2019 - Present</div>
 								<div className="portfolio-edu-desc">
-								Computer Science Sophomore at NUS. <br/>
-								Current Cap: 4.4
+									Computer Science Sophomore at NUS. <br />
+									Current Cap: 4.4
 								</div>
 							</li>
 							<li className="portfolio-exp-bullet-end">
-								<div className="portfolio-edu-title">
-								A levels</div>
+								<div className="portfolio-edu-title">A levels</div>
 								<div className="portfolio-edu-school">
-								Temasek Junior College</div>
+									Temasek Junior College
+								</div>
 								<div className="portfolio-edu-date">
-								January 2015 - December 2016</div>
+									January 2015 - December 2016
+								</div>
 								<div className="portfolio-edu-desc">
-								Achieved 4H2 Distinctions and 2 H1 Distinctions for the A Levels exam</div>
+									Achieved 4H2 Distinctions and 2 H1 Distinctions for the A
+									Levels exam
+								</div>
 							</li>
 						</ul>
 					</div>

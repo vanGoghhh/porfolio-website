@@ -1,0 +1,39 @@
+.contact-container {
+    height: 950px;
+	display: flex;
+	flex-direction: column;
+
+	padding-top: 120px;
+	background: #ffffff;
+}
+.contact-header {
+    align-self: flex-start;
+	font-size: 80px;
+	text-align: left;
+	font-weight: bold;
+	color: #77aab4;
+    font-family: "Poppins";
+    padding-bottom: 30px;
+    padding-left: 590px;
+}
+.contact-friendly-message {
+    text-align: center;
+    align-self: center;
+	font-size: 80px;
+	text-align: left;
+	font-weight: bold;
+	color: #77aab4;
+	font-family: "Poppins";
+}
+.contact-form {
+    height: 400px;
+    width: 400px;
+    margin: 40px 40px 40px 0px;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}

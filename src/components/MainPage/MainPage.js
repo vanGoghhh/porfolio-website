@@ -9,7 +9,7 @@ const MainPage = () => {
 	return (
 		<div style={{ position: "relative", overflow: "hidden" }}>
 			<Particles
-				style={{ background: "#000000" }}
+				style={{ background: "#7989ac" }}
 				height="100%"
 				width="100%"
 				params={ParticlesConfig}

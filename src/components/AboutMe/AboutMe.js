@@ -15,7 +15,7 @@ const AboutMe = () => {
 				<path
 					d="M0, 100 C150, 250 350, 
                 0 500, 100 L700, 00 L0, 0 Z"
-					style={{ fill: "#000000", stroke: "none" }}
+					style={{ fill: "#7989ac", stroke: "none" }}
 				></path>
 			</svg>
 		</div>
