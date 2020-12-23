@@ -2,13 +2,32 @@ import React, { Component } from "react";
 import Gmail from "../../assets/gmail.svg";
 import Linkedin from "../../assets/linkedin.svg";
 import Github from "../../assets/github.svg";
+import db from "../../Firebase";
 import "./Contact.css";
 
 class Contact extends Component {
 	constructor(props) {
 		super(props);
 		this.state = { name: "", email: "", message: "" };
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
+
+	handleSubmit = (e) => {
+		e.preventDefault();
+		db.collection("Contacts").add(
+			{
+				name: this.state.name,
+				email: this.state.email,
+				message: this.state.message,
+			}
+		)
+		.then(() => {
+			alert("Message has been submitted!");
+		})
+		.catch(error => {
+			alert(error.message);
+		});
+	};
 	render() {
 		return (
 			<div className="contact-container" id="contacts">
@@ -16,24 +35,36 @@ class Contact extends Component {
 				<div className="contact-friendly-msg">
 					I'd love to connect with you!
 				</div>
-				<form className="contact-form">
+				<form className="contact-form" onSubmit={this.handleSubmit}>
 					<div className="contact-input">
-						<input type="text" className="input-name"></input>
+						<input
+							type="text"
+							className="input-name"
+							onChange={(e) => this.setState({ name: e.target.value })}
+						></input>
 						<label className="input-name-label">Name</label>
 						<div className="line"></div>
 					</div>
 					<div className="contact-input">
-						<input type="text" className="input-mail"></input>
+						<input
+							type="text"
+							className="input-mail"
+							onChange={(e) => this.setState({ email: e.target.value })}
+						></input>
 						<label className="input-mail-label">Email</label>
 						<div className="line"></div>
 					</div>
 					<div className="contact-input">
-						<textarea type="text" className="input-message"></textarea>
+						<textarea
+							type="text"
+							className="input-message"
+							onChange={(e) => this.setState({ message: e.target.value })}
+						></textarea>
 						<label className="input-message-label">Message</label>
 						<div className="line"></div>
 					</div>
 					<div className="contact-button-area">
-						<button className="contact-save-button">Save</button>
+						<button className="contact-save-button" type="submit">Save</button>
 					</div>
 				</form>
 				<div className="contact-links">
