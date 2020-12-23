@@ -51,7 +51,9 @@ class Contact extends Component {
 							className="input-mail"
 							onChange={(e) => this.setState({ email: e.target.value })}
 						></input>
-						<label className="input-mail-label">Email</label>
+						<label className="input-mail-label"
+						style={this.state.email !== "" ? {visibility: "hidden"} : {}}
+						>Email</label>
 						<div className="line"></div>
 					</div>
 					<div className="contact-input">
