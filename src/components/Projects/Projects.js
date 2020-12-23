@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const Projects = () => {
 	return (
-		<div className="projects-container">
+		<div className="projects-container" id="projects">
 			<div className="projects-header">Projects</div>
 			<div className="projects-content">
 				<div className="projects-java-proj">
@@ -18,7 +18,12 @@ const Projects = () => {
 								interactions happen using a Command Line Interface (CLI).
 							</p>
 							<br />
-							<a>Visit Repository</a>
+							<a
+								href="https://github.com/AY2021S1-CS2103T-T17-3/tpZ"
+								className="link-ref"
+							>
+								Visit Repository
+							</a>
 						</div>
 					</div>
 				</div>
@@ -34,24 +39,35 @@ const Projects = () => {
 								award.
 							</p>
 							<br />
-							<a>Visit Repository</a>
+							<a
+								href="https://github.com/vanGoghhh/debt-Free"
+								className="link-ref"
+							>
+								Visit Repository
+							</a>
 						</div>
 					</div>
 				</div>
+
 				<div className="projects-webdev-proj">
 					<div className="projects-webdev-proj-header">Web-Dev</div>
 					<div className="projects-webdev-proj-content">
 						<div className="projects-webdev-proj-myweb">
-                            <h1 style={{ fontSize: "30px" }}>Portfolio Website</h1>
-                            <p style={{ textAlign: "left", paddingLeft: "15px" }}>
+							<h1 style={{ fontSize: "30px" }}>Portfolio Website</h1>
+							<p style={{ textAlign: "left", paddingLeft: "15px" }}>
 								This is my personal website which I made out of boredom. {">.>"}
 							</p>
 							<br />
-							<a>Visit Repository</a>
+							<a
+								href="https://github.com/vanGoghhh/personal-website"
+								className="link-ref"
+							>
+								Visit Repository
+							</a>
 						</div>
 					</div>
 				</div>
-            </div>
+			</div>
 		</div>
 	);
 };

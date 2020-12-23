@@ -11,8 +11,13 @@
 
 .link-name {
 	font-family: "Poppins";
-	font-weight: bold;
-	font-size: 32px;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.link-ref {
+	text-decoration: none;
 	color: #ffffff;
 }
 

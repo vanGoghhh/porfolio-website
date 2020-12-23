@@ -17,39 +17,16 @@ const MainPage = () => {
 			<div className="top-nav-bar-container">
 				<ul className="top-nav-bar">
 					<li className="link-name">
-						<Link
-							activeClass="active"
-							to="aboutMe"
-							spy={true}
-							smooth={true}
-							duration={1000}
-						>
-							About Me
-						</Link>
+						<a href="#aboutMe" className="link-ref">About Me</a>
 					</li>
-					<li>
-						<Link
-							activeClass="active"
-							to="experiences"
-							spy={true}
-							smooth={true}
-							duration={1000}
-							className="link-name"
-						>
-							Experiences
-						</Link>
+					<li className="link-name">
+						<a href="#portfolio" className="link-ref">Experiences</a>
 					</li>
-					<li>
-						<Link
-							activeClass="active"
-							to="contact"
-							spy={true}
-							smooth={true}
-							duration={1000}
-							className="link-name"
-						>
-							Contact
-						</Link>
+					<li className="link-name">
+						<a href="#projects" className="link-ref">Projects</a>
+					</li>
+					<li className="link-name">
+						<a href="#contacts" className="link-ref">Contact</a>
 					</li>
 				</ul>
 			</div>

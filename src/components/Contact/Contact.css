@@ -1,9 +1,9 @@
 .contact-container {
-	height: 1200px;
+	height: 1300px;
 	display: flex;
 	flex-direction: column;
 	padding-left: 590px;
-	padding-top: 120px;
+	padding-top: 79px;
 	background: #ffffff;
 	align-items: flex-start;
 }
@@ -12,17 +12,17 @@
 	font-size: 80px;
 	text-align: left;
 	font-weight: bold;
-	color: #77aab4;
+	color: #7989ac;
 	font-family: "Poppins";
 	padding-bottom: 30px;
 }
 .contact-friendly-msg {
 	text-align: center;
-    padding-bottom: 50px;
+	padding-bottom: 50px;
 	font-size: 40px;
 	text-align: left;
 	font-weight: bold;
-	color: #77aab4;
+	color: #7989ac;
 	font-family: "Poppins";
 }
 .contact-form {
@@ -59,12 +59,12 @@
 	margin-bottom: 25px;
 	outline: 0px;
 	line-height: 36px;
-    padding: 1px 2px;
-    cursor: pointer;
+	padding: 1px 2px;
+	cursor: pointer;
 }
 .input-name-label {
-    font-family: "Poppins";
-	color: #77aab4;
+	font-family: "Poppins";
+	color: #7989ac;
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-size: 24px;
@@ -101,12 +101,12 @@
 	text-shadow: none;
 	display: inline-block;
 	text-align: start;
-    appearance: textfield;
-    cursor: pointer;
+	appearance: textfield;
+	cursor: pointer;
 }
 .input-mail-label {
-    color: #77aab4;
-    font-family: "Poppins";
+	color: #7989ac;
+	font-family: "Poppins";
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-size: 24px;
@@ -133,12 +133,12 @@
 	margin-bottom: 25px;
 	outline: 0px;
 	height: 100px;
-    padding: 0px;
-    cursor: pointer;
+	padding: 0px;
+	cursor: pointer;
 }
 .input-message-label {
-    font-family: "Poppins";
-	color: #77aab4;
+	font-family: "Poppins";
+	color: #7989ac;
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-size: 24px;
@@ -160,31 +160,33 @@
 	flex-wrap: wrap;
 }
 .contact-save-button {
-    border: none;
-    border-radius: 44px;
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    padding: 5px 40px;
-    flex: 0 1 0%;
-    outline: 0px;
-    height: 50px;
-    margin-left: auto;
-    background-color: #77aab4;
-    font-family: "Poppins";
-    cursor: pointer;
-    transition: all 0.4s;
+	border: none;
+	border-radius: 44px;
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	padding: 5px 40px;
+	flex: 0 1 0%;
+	outline: 0px;
+	height: 50px;
+	margin-left: auto;
+	background-color: #7989ac;
+	font-family: "Poppins";
+	cursor: pointer;
+	transition: all 0.4s;
 }
 .contact-links {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+	display: flex;
+	align-items: flex-start;
 }
 .contact-generic-container {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Poppins";
-    font-size: 10px;
-
+	padding-top: 26px;
+	padding-right: 26px;
+}
+.contact-img {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+}
+.contact-img:hover {
+	transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s;
 }

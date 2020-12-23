@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Gmail from "../../assets/gmail.svg";
+import Linkedin from "../../assets/linkedin.svg";
+import Github from "../../assets/github.svg";
 import "./Contact.css";
 
 class Contact extends Component {
@@ -6,10 +9,9 @@ class Contact extends Component {
 		super(props);
 		this.state = { name: "", email: "", message: "" };
 	}
-
 	render() {
 		return (
-			<div className="contact-container">
+			<div className="contact-container" id="contacts">
 				<div className="contact-header">Contact</div>
 				<div className="contact-friendly-msg">
 					I'd love to connect with you!
@@ -35,26 +37,21 @@ class Contact extends Component {
 					</div>
 				</form>
 				<div className="contact-links">
-					<div className="contact-generic-container">
-						<img className="contact-email-img"></img>
-						<h1>Email Me At</h1>
-						<p>blackznigelng@gmail.com</p>
-					</div>
-					<div className="contact-generic-container">
-						<img className="contact-linkedin-img"></img>
-						<h1>Connect with me on linkedin</h1>
-						<a>Linkedin Profile</a>
-					</div>
-					<div className="contact-generic-container">
-						<img className="contact-phone-img"></img>
-						<h1>Phone me at</h1>
-						<h2>+65 82827731</h2>
-					</div>
-					<div className="contact-generic-container">
-						<img className="contact-github-img"></img>
-						<h1>Find me on github</h1>
-						<a>Github Profile</a>
-					</div>
+					<li className="contact-generic-container">
+						<a href="mailto:blackznigelng@gmail.com">
+							<img className="contact-img" src={Gmail}></img>
+						</a>
+					</li>
+					<a href="https://www.linkedin.com/in/nigel-ng-ba1794197/">
+						<li className="contact-generic-container">
+							<img className="contact-img" src={Linkedin}></img>
+						</li>
+					</a>
+					<a href="https://github.com/vanGoghhh?tab=repositories">
+						<li className="contact-generic-container">
+							<img className="contact-img" src={Github}></img>
+						</li>
+					</a>
 				</div>
 			</div>
 		);
