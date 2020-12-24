@@ -14,13 +14,13 @@ const AboutMe = () => {
 				</div>
 				<div>
 					<a href={Pdf}>
-						<button className="resume-button">Download my resume</button>
+						<button className="resume-button">Download my</button>
 					</a>
 				</div>
 			</div>
-			<svg viewBox="0 50 500 200" preserveAspectRatio="xMinYMin meet">
+			<svg viewBox="0 50 500 100" preserveAspectRatio="xMinYMin meet">
 				<path
-					d="M0, 100 C150, 250 350, 
+					d="M0, 100 C150, 250 400, 
                 0 500, 100 L700, 00 L0, 0 Z"
 					style={{ fill: "#7989ac", stroke: "none" }}
 				></path>

@@ -1,15 +1,14 @@
 .projects-container {
-	height: 950px;
 	display: flex;
 	flex-direction: column;
-
-	padding-top: 120px;
-	background: #ebeeee;
+    background: #ebeeee;
+    padding-bottom: 15%;
 }
 
 .projects-header {
     text-align: center;
     align-self: center;
+    padding-top: 80px;
 	font-size: 80px;
 	text-align: left;
 	font-weight: bold;
@@ -21,9 +20,8 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	overflow: hidden;
-    padding-top: 60px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-top: 90px;
+
 }
 
 .projects-java-proj {

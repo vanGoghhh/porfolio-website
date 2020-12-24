@@ -1,11 +1,11 @@
 .portfolio-container {
-	height: 800px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding-left: 550px;
-	padding-right: 400px;
-	padding-top: 80px;
+	padding-left: 20%;
+	padding-top: 8%;
+	padding-bottom: 5%;
+	
 }
 .portfolio-header {
 	padding-left: 40px;
@@ -21,6 +21,7 @@
 	grid-template-columns: 1fr 1fr;
 	overflow: hidden;
 	padding-top: 40px;
+	width: 80%;
 }
 
 .portfolio-exp {
@@ -30,7 +31,7 @@
 	
 }
 .portfolio-exp-header {
-	font-size: 64px;
+	font-size: 50px;
 	font-family: "Poppins";
 	font-weight: bold;
 	padding-left: 40px;
@@ -134,7 +135,7 @@
 
 .portfolio-edu-header {
 	display: block;
-	font-size: 64px;
+	font-size: 50px;
 	font-family: "Poppins";
 	font-weight: bold;
 	color: #7989ac;

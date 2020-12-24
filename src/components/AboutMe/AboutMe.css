@@ -1,18 +1,16 @@
 .about-container {
 	position: relative;
-	width: 100%;
-	margin-right: -100px;
-	height: 450px;
+
 	overflow: hidden;
 }
-.svg {
-	
+svg {
+	z-index: -1;
 }
 .about-intro-container {
 	position: absolute;
-	top: 0;
-	left: 0;
-	margin-left: 100px;
+	top: 3%;
+	left: 3%;
+
 }
 
 .about-hello {
@@ -24,7 +22,7 @@
 }
 .about-desc {
 	font-family: "Poppins";
-	font-size: 30px;
+	font-size: 26px;
 	text-align: left;
 	font-weight: normal;
 	word-wrap: break-word;

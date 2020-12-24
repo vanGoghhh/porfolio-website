@@ -9,9 +9,7 @@ const MainPage = () => {
 	return (
 		<div style={{ position: "relative", overflow: "hidden" }}>
 			<Particles
-				style={{ background: "#7989ac" }}
-				height="100%"
-				width="100%"
+				style={{ background: "#7989ac"}}
 				params={ParticlesConfig}
 			/>
 			<div className="top-nav-bar-container">

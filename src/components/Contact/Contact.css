@@ -1,15 +1,16 @@
 .contact-container {
-	height: 1300px;
+	
 	display: flex;
 	flex-direction: column;
-	padding-left: 590px;
-	padding-top: 79px;
+	padding-left: 30%;
+	padding-top: 60px;
+	padding-bottom: 100px;
 	background: #ffffff;
 	align-items: flex-start;
 }
 .contact-header {
 	align-self: flex-start;
-	font-size: 80px;
+	font-size: 70px;
 	text-align: left;
 	font-weight: bold;
 	color: #7989ac;
@@ -18,7 +19,7 @@
 }
 .contact-friendly-msg {
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	font-size: 40px;
 	text-align: left;
 	font-weight: bold;
@@ -26,12 +27,10 @@
 	font-family: "Poppins";
 }
 .contact-form {
-	height: 500px;
-	width: 600px;
-	margin: 40px 40px 40px 0px;
+	width: 35%;
 	padding: 80px;
 	background: rgb(255, 255, 255);
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 20px 0px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
