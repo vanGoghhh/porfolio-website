@@ -29,4 +29,19 @@
 	font-weight: normal;
 	word-wrap: break-word;
 	color: #ffffff;
+	padding-bottom: 30px;
+}
+.resume-button {
+	border: none;
+	border-radius: 44px;
+	color: white;
+	font-size: 20px;
+	outline: 0px;
+	height: auto;
+	background-color: #77aab4;
+	font-family: "Poppins";
+	cursor: pointer;
+	display: inline-block;
+	transition: all 0.4s;
+	padding: 20px 30px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+import Pdf from "../files/Nigel_Ng_Resume.pdf";
 
 const AboutMe = () => {
 	return (
@@ -7,8 +8,14 @@ const AboutMe = () => {
 			<div className="about-intro-container">
 				<div className="about-hello">Hello</div>
 				<div className="about-desc">
-					Hi I am Nigel a programming enthusiats whose interests lies <br />
-					in front-end development, reading and the outdoors
+					Hi I am Nigel a computer science sophomore whose interests lies in{" "}
+					<br />
+					in web development, reading and the outdoors
+				</div>
+				<div>
+					<a href={Pdf}>
+						<button className="resume-button">Download my resume</button>
+					</a>
 				</div>
 			</div>
 			<svg viewBox="0 50 500 200" preserveAspectRatio="xMinYMin meet">

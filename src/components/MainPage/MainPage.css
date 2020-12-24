@@ -49,44 +49,71 @@
 
 .my-desc {
 	display: flex;
-    flex-direction: column;
-    margin-left: -50px;
-    margin-top: 50px;
+	flex-direction: column;
+	padding-left: 50px;
+	padding-top: 80px;
+	
 }
 .my-name {
 	text-align: start;
-	height: 100px;
 	font-family: "Poppins";
-	font-weight: 300;
+	font-weight: bold;
 	font-size: 80px;
 	color: #ffffff;
-	margin-top: 140px;
-	margin-left: 110px;
 	border-bottom: 3px solid #ffffff;
-	line-height: 1.6px;
+
+
 }
+.my-name .letter {
+	display: inline-block;
+	line-height: 1em;
+  }
 
 .my-major {
-    margin-left: 110px;
 	font-family: "Poppins";
 	font-size: 30px;
 	color: #ffffff;
 }
-
 .my-links {
 
 }
 
+ion-icon {
+	color: #ffffff;
+	z-index: 1;
+	font-size: 64px;
+}
+ion-icon:hover {
+	animation: bounce 1s;
+	color: black;
+}
 .my-links-container {
     display: flex;
 	flex-direction: row;
 	list-style: none;
-    justify-content: center;
-    margin-left: 50px;
-    color: white;
-    margin-top: 20px;
+    justify-content: flex-start;
+	margin-top: 20px;
+	
 }
 
-.my-links-container > a {
-    margin-right: 20px;
+.my-links-container > li {
+	margin-right: 20px;
+	text-decoration: none;
 }
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+	  -webkit-transform: translateY(0);
+	  transform: translateY(0);
+	}
+  
+	40% {
+	  -webkit-transform: translateY(-20px);
+	  transform: translateY(-20px);
+	}
+  
+	80% {
+	  -webkit-transform: translateY(-10px);
+	  transform: translateY(-10px);
+	}
+  }
