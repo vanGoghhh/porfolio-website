@@ -6,7 +6,12 @@ const AboutMe = () => {
 	return (
 		<div className="about-container" id="aboutMe">
 			<div className="wave-container">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 1440 320"
+					height="480px"
+					preserveAspectRatio="none"
+				>
 					<path
 						fill="#7989ac"
 						fill-opacity="1"

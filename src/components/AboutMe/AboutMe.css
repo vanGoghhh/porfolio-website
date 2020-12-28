@@ -13,11 +13,11 @@
 	align-items: start;
 }
 .wave-container {
-	display: inline-block;
 	position: relative;
 	width: 100%;
 	vertical-align: middle;
 	overflow: hidden;
+
 }
 svg {
 	z-index: -1;

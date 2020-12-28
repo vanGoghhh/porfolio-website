@@ -7,7 +7,7 @@ import MyPic from "../../assets/nigel-pic-lol.jpg";
 
 const MainPage = () => {
 	return (
-		<div style={{ position: "relative", overflow: "hidden" }}>
+		<div style={{ position: "relative", overflow: "hidden",  minHeight: "100vh"}}>
 			<Particles
 				style={{ background: "#7989ac"}}
 				params={ParticlesConfig}
