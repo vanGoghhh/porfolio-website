@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import ParticlesConfig from "../Config/ConfigParticles";
 import Particles from "react-particles-js";
 import "./MainPage.css";
@@ -7,7 +6,7 @@ import MyPic from "../../assets/nigel-pic-lol.jpg";
 
 const MainPage = () => {
 	return (
-		<div style={{ position: "relative", overflow: "hidden",  minHeight: "100vh"}}>
+		<div style={{ position: "relative", overflow: "hidden", height:"100%"}}>
 			<Particles
 				style={{ background: "#7989ac"}}
 				params={ParticlesConfig}
