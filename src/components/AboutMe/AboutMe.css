@@ -1,17 +1,24 @@
-
 .about-container {
 	position: relative;
 
 	overflow: hidden;
-
 }
 .about-intro-container {
 	position: absolute;
 	top: 0px;
 	left: 3%;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
-
+.wave-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
 svg {
 	z-index: -1;
 }
@@ -25,7 +32,7 @@ svg {
 }
 .about-desc {
 	font-family: "Poppins";
-	font-size: 26px;
+	font-size: 25px;
 	text-align: left;
 	font-weight: normal;
 	word-wrap: break-word;

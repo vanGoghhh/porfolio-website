@@ -3,6 +3,7 @@
 	flex-direction: row;
 	list-style: none;
 	justify-content: flex-end;
+	height: 100%;
 }
 
 .top-nav-bar > li {
@@ -25,6 +26,7 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+	z-index: 1;
 }
 .my-intro-container {
 	display: flex;
