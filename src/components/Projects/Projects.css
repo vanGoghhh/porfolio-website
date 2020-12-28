@@ -21,6 +21,8 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	overflow: hidden;
     padding-top: 90px;
+    padding-left: 9%;
+    padding-right: 9%;
 
 }
 
